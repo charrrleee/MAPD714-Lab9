@@ -16,6 +16,8 @@
 		B1A017B0291CA807003B8D64 /* MAPD714_Lab9Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A017AF291CA807003B8D64 /* MAPD714_Lab9Tests.swift */; };
 		B1A017BA291CA807003B8D64 /* MAPD714_Lab9UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A017B9291CA807003B8D64 /* MAPD714_Lab9UITests.swift */; };
 		B1A017BC291CA807003B8D64 /* MAPD714_Lab9UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A017BB291CA807003B8D64 /* MAPD714_Lab9UITestsLaunchTests.swift */; };
+		B1A017C9291CA9AB003B8D64 /* ContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A017C8291CA9AB003B8D64 /* ContentCell.swift */; };
+		B1A017CB291CB2A7003B8D64 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A017CA291CB2A7003B8D64 /* HeaderCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B1A017B5291CA807003B8D64 /* MAPD714-Lab9UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MAPD714-Lab9UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1A017B9291CA807003B8D64 /* MAPD714_Lab9UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAPD714_Lab9UITests.swift; sourceTree = "<group>"; };
 		B1A017BB291CA807003B8D64 /* MAPD714_Lab9UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAPD714_Lab9UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B1A017C8291CA9AB003B8D64 /* ContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCell.swift; sourceTree = "<group>"; };
+		B1A017CA291CB2A7003B8D64 /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				B1A017A1291CA806003B8D64 /* Assets.xcassets */,
 				B1A017A3291CA806003B8D64 /* LaunchScreen.storyboard */,
 				B1A017A6291CA806003B8D64 /* Info.plist */,
+				B1A017C8291CA9AB003B8D64 /* ContentCell.swift */,
+				B1A017CA291CB2A7003B8D64 /* HeaderCell.swift */,
 			);
 			path = "MAPD714-Lab9";
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1A0179D291CA805003B8D64 /* ViewController.swift in Sources */,
+				B1A017CB291CB2A7003B8D64 /* HeaderCell.swift in Sources */,
 				B1A01799291CA805003B8D64 /* AppDelegate.swift in Sources */,
 				B1A0179B291CA805003B8D64 /* SceneDelegate.swift in Sources */,
+				B1A017C9291CA9AB003B8D64 /* ContentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
